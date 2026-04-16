@@ -11,7 +11,7 @@
 <body class="d-flex align-items-center justify-content-center" style="height:100vh">
 
 <div style="width:350px">
-    <h3 class="text-center mb-4">Masuk</h3>
+    <h3 class="text-center mb-4">Masuk ke halaman Login</h3>
 
     @if(session('error'))
         <div class="alert alert-danger text-center">
