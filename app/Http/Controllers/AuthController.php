@@ -26,7 +26,7 @@ class AuthController extends Controller
             $user = Auth::user();
 
             if ($user->role === 'pengelola') {
-                return redirect('/admin/dashboard');
+                return redirect('/dashboard');
             } else {
                 return redirect('/');
             }
