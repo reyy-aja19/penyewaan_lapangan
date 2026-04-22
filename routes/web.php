@@ -18,3 +18,7 @@ use App\Http\Controllers\LapanganController;
 
 Route::resource('/lapangan', LapanganController::class)
     ->middleware(CekLogin::class);
+
+Route::get('/',function(){
+    return view('welcome');
+});

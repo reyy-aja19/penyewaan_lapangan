@@ -19,7 +19,7 @@
         </div>
     @endif
 
-    <form method="POST" action="/dashboard">
+    <form method="POST" action="/login">
         @csrf
 
         <input type="email" name="email" class="form-control mb-2" placeholder="Email" required>
